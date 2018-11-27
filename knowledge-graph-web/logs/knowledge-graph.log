@@ -1,0 +1,37 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.0.0.RELEASE)
+
+2018-05-15 20:24:07.990  INFO 1588 --- [           main] c.i.k.KnowledgeGraphApplication          : Starting KnowledgeGraphApplication v1.0.0 on DESKTOP-FTSPJSO with PID 1588 (C:\Users\11416\Desktop\project\share\knowledge-graph\knowledge-graph-web\knowledge-graph-1.0.0.jar started by 11416 in C:\Users\11416\Desktop\project\share\knowledge-graph\knowledge-graph-web)
+2018-05-15 20:24:08.004  INFO 1588 --- [           main] c.i.k.KnowledgeGraphApplication          : No active profile set, falling back to default profiles: default
+2018-05-15 20:24:09.112  INFO 1588 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7cf10a6f: startup date [Tue May 15 20:24:09 CST 2018]; root of context hierarchy
+2018-05-15 20:24:11.789  INFO 1588 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7476 (http)
+2018-05-15 20:24:11.840  INFO 1588 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-05-15 20:24:11.841  INFO 1588 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-05-15 20:24:11.864  INFO 1588 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Users\11416\Desktop\software\javaSE1.8\jdk1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\11416\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\11416\bin;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;.;C:\Users\11416\Desktop\software\javaSE1.8\jdk1.8\bin;C:\Users\11416\Desktop\software\apache-maven-3.5.0\bin;C:\Users\11416\Desktop\software\gradle-4.0.1-all\gradle-4.0.1\bin;C:\mysql-5.7.17-winx64\bin;C:\Users\11416\Anaconda3;C:\Users\11416\Anaconda3\Scripts;C:\Users\11416\Anaconda3\Library\bin;C:\Users\11416\AppData\Local\Programs\Python\Python36\Scripts;C:\Users\11416\AppData\Local\Programs\Python\Python36;C:\Users\11416\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\OpenVPN\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;.]
+2018-05-15 20:24:12.138  INFO 1588 --- [ost-startStop-1] o.a.c.c.C.[.[.[/knowledge-graph]         : Initializing Spring embedded WebApplicationContext
+2018-05-15 20:24:12.139  INFO 1588 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3033 ms
+2018-05-15 20:24:12.534  INFO 1588 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-05-15 20:24:12.548  INFO 1588 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-15 20:24:12.548  INFO 1588 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-15 20:24:12.548  INFO 1588 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-15 20:24:12.548  INFO 1588 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-15 20:24:13.404  INFO 1588 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7cf10a6f: startup date [Tue May 15 20:24:09 CST 2018]; root of context hierarchy
+2018-05-15 20:24:13.658  INFO 1588 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello/index],methods=[GET]}" onto public java.lang.String casia.isiteam.knowledgegraph.controller.HelloController.index(org.springframework.ui.ModelMap)
+2018-05-15 20:24:13.675  INFO 1588 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-15 20:24:13.676  INFO 1588 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-15 20:24:13.753  INFO 1588 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-15 20:24:13.753  INFO 1588 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/path/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-15 20:24:13.827  INFO 1588 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-15 20:24:13.969  INFO 1588 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2018-05-15 20:24:14.367  INFO 1588 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-05-15 20:24:14.678  INFO 1588 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7476 (http) with context path '/knowledge-graph'
+2018-05-15 20:24:14.683  INFO 1588 --- [           main] c.i.k.KnowledgeGraphApplication          : Started KnowledgeGraphApplication in 7.597 seconds (JVM running for 8.451)
+2018-05-15 20:24:14.793  INFO 1588 --- [nio-7476-exec-1] o.a.c.c.C.[.[.[/knowledge-graph]         : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-15 20:24:14.793  INFO 1588 --- [nio-7476-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-05-15 20:24:14.840  INFO 1588 --- [nio-7476-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 46 ms
