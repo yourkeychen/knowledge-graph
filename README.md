@@ -27,7 +27,7 @@ JS以及其它HTML等源码
 ------------------------
 知识图谱可视化入口文件
 
-六、可视化数据接口类HelloController
+六、数据接口类HelloController
 -------------------------
 1、访问地址：http://localhost:7476/knowledge-graph/hello/index
 
